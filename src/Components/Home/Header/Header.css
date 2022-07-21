@@ -1,0 +1,23 @@
+.HeaderConteiner{
+    height: 300px;
+    width: 100%;
+    background: white;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.Video{
+    height: 300px;
+    width: 100%;
+}
+
+@media screen and (min-width:390px) and (max-width:450px){
+    .HeaderConteiner{
+        height: 250px;
+    }
+    .Video{
+        height: 250px;
+    }
+}

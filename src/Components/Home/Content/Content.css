@@ -1,0 +1,49 @@
+.ContentConteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    margin-top: 1000px;
+    background-color: rgba(255, 0, 0, 0);
+    position: sticky;
+    top: 300px;
+}
+
+.Photo{
+    object-fit: cover;
+    height:300px;
+}
+
+.CongratulationsText{
+    font-family: Pacifico;
+    font-size: large;
+    width: 350px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url("../../../../src/Font/Pacifico.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media screen and (min-width:390px) and (max-width:450px){
+    .ContentConteiner{
+        height: 250px;
+        top: 250px;
+    }
+    .Photo{
+        object-fit: cover;
+        height:auto;
+        width: 100px;
+    }
+    .CongratulationsText{
+        font-size: 10px;
+        width: 190px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
