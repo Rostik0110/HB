@@ -15,15 +15,7 @@ const express = require('express');
  app.get('/ping', function (req, res) {
   return res.send('pong');
  });
- 
- //обслуживание html
- app.get('/google63f22d69b9da230a.html',(req, res)=> {
-    res.send("google-site-verification: google63f22d69b9da230a.html");
- });
 
- app.get('/sitemap',(req, res)=> {
-   res.sendFile(__dirname, "sitemap.xml" );
-});
 
  app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
@@ -31,8 +23,8 @@ const express = require('express');
 
  app.listen(port);
 
- const http = require("http");
+ const http = require("https");
  setInterval(function() {
-     http.get("http://portfolio--test.herokuapp.com");
+     http.get("https://hb-r.herokuapp.com/");
      console.log("Перезапуск сервера")
  }, 1200000); 
