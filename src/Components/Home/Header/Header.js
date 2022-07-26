@@ -4,9 +4,7 @@ import video from "./video.mp4"
 const Header = () =>{
     return(
         <div className="HeaderConteiner">
-            <video autoplay  muted playsinline className="Video" >
-                <source src={video} type='video/mp4;'/>
-            </video>
+            <video controls={false} autoplay loop muted playsinline webkit-playinginline className="Video" src={video}></video>
         </div>
     )
 }
