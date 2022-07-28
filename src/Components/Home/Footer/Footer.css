@@ -32,17 +32,7 @@
 }
 @media screen and (min-width:390px) and (max-width:450px){
     .FooterConteiner{
-        height: 250px;
-        margin-bottom: 150px;
+    display: none;
     }
-    .CongratulationsTextIT{
-        font-size: 10px;
-        width: 100px;
-    }
-    .Picture{
-        height: auto;
-        width: 100px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+
 }

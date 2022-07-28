@@ -13,9 +13,9 @@
     width: 100%;
 }
 
-@media screen and (min-width:390px) and (max-width:450px){
+@media screen and (min-width:300px) and (max-width:1050px){
     .HeaderConteiner{
-        height: 250px;
+        display: none;
     }
     .Video{
         height: 250px;
