@@ -8,7 +8,7 @@ const Home = () =>{
     return(
             <div className="Home">
                 <div className="preloader">
-                    Нажаль ця сторінка відображвється тільки на комп’ютері
+                    Нажаль ця сторінка відображається тільки на комп’ютері
                 </div>
                 <Header/>
                 <Content/>
