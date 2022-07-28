@@ -17,15 +17,12 @@
     .HeaderConteiner{
         display: none;
     }
-    .Video{
-        height: 250px;
-    }
 }
 
 @media screen and (min-width:3400px) and (max-width:3600px){
     .HeaderConteiner{
         height: 740px;
-        top: 740px;
+        top: 0;
         margin-top: 1500px;
     }
     .Photo {
