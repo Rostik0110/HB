@@ -33,3 +33,8 @@
         font-family: Pacifico;
     }
 }
+@media screen and (min-width:3400px) and (max-width:3600px){
+    .Home{
+        background-image: url('photo1.jpeg');
+    }
+}

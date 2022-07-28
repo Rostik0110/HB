@@ -34,5 +34,22 @@
     .ContentConteiner{
        display: none;
     }
+}
+
+@media screen and (min-width:3400px) and (max-width:3600px){
+    .ContentConteiner {
+        height: 740px;
+        margin-top: 1500px;
+        top: 740px;
+    }
+    .Photo {
+        height: 600px;
+    }
+    .CongratulationsText {
+        font-size: xxx-large;
+        width: 850px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
 
 }
